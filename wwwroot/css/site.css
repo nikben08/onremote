@@ -121,8 +121,6 @@ body {
 }
 
 
-
-
 @-webkit-keyframes mover1 {
     0% {
         transform: translateY(0);
@@ -274,18 +272,6 @@ body {
         color: #8DCEB8;
         outline: 0;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #menu__toggle {
