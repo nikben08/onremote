@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - onremote</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://kit.fontawesome.com/8b2df3cdd4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index"><img src="~/img/logo.png" /></a>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Index">Prozess</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Privacy">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Privacy">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Privacy">Kontakt</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Privacy">Jobs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <header class="d-block d-sm-block d-md-none">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <div class="mobile_language-select">
+                <div id="google_translate_element"></div>
+            </div>
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="/">ANASAYFA</a></li>
+                <li><a class="menu__item" href="/aboutus">HAKKIMIZDA</a></li>
+                <li><a class="menu__item" href="/catalog">ÜRÜNLERİMİZ</a></li>
+                <li><a class="menu__item" href="/qualitycertificates">KALİTE BELGELERİMİZ</a></li>
+                <li><a class="menu__item" href="/contact">İLETİŞİM</a></li>
+                <li>
+                    <div class="row menu__footer">
+                        <div class="col-3">
+                            <a href="https://www.instagram.com/isimax.aydinlatmaa/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa-brands fa-facebook fa-xl"></i>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa-brands fa-linkedin-in fa-xl"></i>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa-brands fa-youtube fa-xl"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="mobile_logo">
+                <img src="~/img/logo.png" />
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - onremote - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
