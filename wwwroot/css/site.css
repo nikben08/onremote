@@ -284,11 +284,53 @@ body {
     }
 
 
-
 svg {
     fill: #F4F9FD;
     width: 100%;
 }
+
+.step{
+    background-color: #F4F9FD;
+    text-align: left;
+}
+
+.step img{
+    height: 350px;
+}
+
+    .step .card .card-body .card-subtitle {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 10px;
+        width: 40px;
+        height: 40px;
+        background-color: #4CAA8A;
+        border-radius: 20px;
+        color: #B9E1D4;
+        border: 2px solid #449F7E;
+    }
+
+.step .row {
+    margin-bottom: 50px;
+}
+
+.features .left_side {
+    background-color: #161F6D;
+    background-image: url('~/img/f11.png');
+}
+
+    .features .left_side .icon {
+        height: 80px;
+        width: 80px;
+        background-image: url('/img/f11.png');
+        background-color: #E6E7ED;
+    }
+
+    .features .left_side .icon img {
+        height: 50%;
+        width: 50%;
+    }
+
 
 
 
