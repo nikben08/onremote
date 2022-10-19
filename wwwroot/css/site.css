@@ -339,10 +339,6 @@ svg {
         height: 50px;
     }
 
-
-
-
-
 #menu__toggle {
     opacity: 0;
 }
@@ -492,7 +488,3 @@ svg {
     .menu__item:hover {
         background-color: #CFD8DC;
     }
-
-
-
-
