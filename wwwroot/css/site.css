@@ -3,6 +3,11 @@
     src: url("/fonts/TipoType - Brother1816Printed-Regular.otf");
 }
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 div {
     font-family: brother-1816;
 }
@@ -274,13 +279,16 @@ body {
     }
 
 
-
-
-
-
     .benefits img {
         height: 60px;
     }
+
+
+
+svg {
+    fill: #F4F9FD;
+    width: 100%;
+}
 
 
 
