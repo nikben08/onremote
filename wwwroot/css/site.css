@@ -331,6 +331,16 @@ svg {
         width: 50%;
     }
 
+    .features .right_side .icon {
+        text-align: center;
+    }
+
+    .features .right_side .icon img{
+        height: 50px;
+        width: 50px;
+        margin: 0 auto;
+    }
+
 
 
 
