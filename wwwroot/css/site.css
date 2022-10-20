@@ -314,9 +314,15 @@ svg {
     margin-bottom: 50px;
 }
 
+
+.features .container {
+    border-radius: 10px;
+}
+
 .features .left_side {
     background-color: #161F6D;
     background-image: url('~/img/f11.png');
+    border-radius: 15px 0px 0px 15px;
 }
 
     .features .left_side .icon {
