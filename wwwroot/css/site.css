@@ -431,6 +431,49 @@ svg {
         border: 4px solid #8DCEB8;
     }
 
+
+
+.calculator {
+    text-align: center;
+}
+
+.calc {
+    background-color: #161F6D;
+    border-radius: 35px;
+    height: 900px;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+
+.calc-inner {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.calc .calc-inner .calc-environment h4 {
+    border-bottom: 1px solid #FFFFFF;
+    font-size: 1.3vw;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+    .calc p {
+        margin-top: 25px;
+    }
+
+    .calc input {
+        width: 100%;
+        height: 45px;
+        border-radius: 20px;
+        background-color: #161F6D;
+        color: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        padding: 0px 8px 0px 8px;
+    }
+
 #menu__toggle {
     opacity: 0;
 }
