@@ -226,9 +226,7 @@ body {
         display: block;
         top: 0;
         left: 50%;
-        -webkit-transform: translateX(-50%);
-        -webkit-transform: translateX(50%);
-        transform: skewX(45deg);
+        transform: translateX(-50%) skew(45deg);
         width: 0;
         height: 100%;
         background: #FFFFFF;
@@ -242,7 +240,7 @@ body {
     }
 
         .fifth:hover:after {
-            width: 110%;
+            width: 130%;
         }
 
 
