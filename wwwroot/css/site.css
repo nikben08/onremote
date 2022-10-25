@@ -591,9 +591,14 @@ svg {
     padding-bottom: 5px;
 }
 
-    .calc p {
-        margin-top: 25px;
-    }
+.calc .calc-inner .calc-environment p {
+    margin-bottom: 0px;
+    color: #8DCEA7;
+}
+
+.calc .calc-inner .calc-environment .total {
+    margin-top: 10px;
+}
 
     .calc input {
         width: 100%;
