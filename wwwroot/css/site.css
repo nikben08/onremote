@@ -313,6 +313,82 @@ svg {
     margin-bottom: 50px;
 }
 
+.backend {
+    text-align: center;
+}
+
+    .backend .title h4 {
+        font-size: 40px;
+        color: #070337;
+    }
+
+    .backend .title h2 {
+        font-size: 20px;
+        margin-top: 20px;
+        color: #070337;
+    }
+
+    .backend .left_side {
+        background-color: #171F6E;
+        border-radius: 10px;
+    }
+    
+    .backend .left_side video {
+        width: 100%;
+    }
+
+
+.iot {
+    background-color: #8DCEB8;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+    .iot .left_side h4 {
+        font-size: 20px;
+        color: #070337;
+    }
+
+    .iot .left_side p {
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        color: #424242;
+        margin-bottom: 15px;
+        line-height: 26px;
+        width: 80%;
+    }
+
+    .iot .left_side .iot-btn {
+        border-radius: 50px;
+        width: 200px;
+        height: 50px;
+        background: #161f6d;
+        color: white;
+        font-weight: bold;
+        margin-top: 4rem;
+        border: none;
+        transition: 0.3s;
+    }
+
+        .iot .left_side .iot-btn:hover {
+            color: #161f6d;
+            background-color: #FFFFFF;
+        }
+
+    .iot .right_side .pfeil {
+        width: 120px;
+        transform: rotate(50deg);
+    }
+
+    .iot .right_side .pulse_device {
+        border: 8px solid #161f6d;
+        width: 150px;
+        border-radius: 80px;
+        position: relative;
+        bottom: -75px;
+    }
+
 
 .features {
     margin-top: 40px;
@@ -490,6 +566,18 @@ svg {
         margin: 0 auto;
         margin-top: 50px;
     }
+
+
+
+.contact {
+    margin-top: 120px;
+}
+
+    .contact .title {
+        color: #161f6d;
+        font-size: 40px;
+    }
+
 
 #menu__toggle {
     opacity: 0;
