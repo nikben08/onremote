@@ -478,10 +478,14 @@ svg {
 .usecases .header {
     margin-bottom: 30px;
 }
+    .usecases .nav-tabs .nav-item {
+        margin-bottom: 40px;
+    }
 
-.usecases .tabs-to-dropdown {
-
-}
+    .usecases .nav-tabs .nav-item .active {
+        padding-bottom: 20px;
+        border-bottom: 3px solid #161F6D;
+    }
 
 
 .team { 
