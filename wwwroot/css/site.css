@@ -625,6 +625,11 @@ svg {
     margin-top: 120px;
 }
 
+    .contact .contact-details p {
+        font-size: 15px;
+        font-family: Arial;
+    }
+
     .contact .title {
         color: #161f6d;
         font-size: 40px;
