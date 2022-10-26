@@ -597,7 +597,7 @@ svg {
 }
 
 .calc .calc-inner .calc-environment .total {
-    margin-top: 10px;
+
 }
 
     .calc input {
@@ -608,6 +608,10 @@ svg {
         color: #FFFFFF;
         border: 2px solid #FFFFFF;
         padding: 0px 8px 0px 8px;
+    }
+
+    .calc input::placeholder {
+        color: #FFFFFF;
     }
 
     .calc .calc-inner .calc-btn button{
