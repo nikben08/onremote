@@ -3,6 +3,12 @@
     src: url("/fonts/TipoType - Brother-1816-Bold.otf");
 }
 
+@font-face {
+    font-family: brother-1816-thin;
+    src: url("/fonts/TipoType - Brother-1816-Thin.otf");
+}
+
+
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
@@ -633,8 +639,20 @@ svg {
     .contact .title {
         color: #161f6d;
         font-size: 40px;
+        margin-bottom: 50px;
     }
 
+    .contact h4 {
+        color: #161f6d;
+        font-size: 20px;
+    }
+
+    .contact a {
+        color: #272727;
+        font-size: 15px;
+        font-family: brother-1816-thin;
+        text-decoration: none;
+    }
 
 #menu__toggle {
     opacity: 0;
