@@ -1,4 +1,6 @@
-﻿@font-face {
+﻿/* Fonts */
+
+@font-face {
     font-family: brother-1816;
     src: url("/fonts/TipoType - Brother-1816-Bold.otf");
 }
@@ -8,6 +10,7 @@
     src: url("/fonts/TipoType - Brother-1816-Thin.otf");
 }
 
+/* main styles  */
 
 .container-fluid {
     padding-right: 0px;
@@ -22,6 +25,8 @@ div {
 body {
     font-family: brother-1816, sans-serif;
 }
+
+/* Navbar */
 
 .navbar {
     height: 86px;
@@ -48,6 +53,8 @@ body {
     padding: 35px 0;
     font-family: brother-1816, sans-serif;
 }
+
+/* Hero styles */
 
 .hero__content-2 {
     height: 480px;
@@ -132,7 +139,6 @@ body {
     z-index: -1;
 }
 
-
 @-webkit-keyframes mover1 {
     0% {
         transform: translateY(0);
@@ -213,8 +219,6 @@ body {
     }
 }
 
-
-
 .fifth {
     border-color: #8DCEB8;
     border-radius: 0;
@@ -294,6 +298,8 @@ svg {
     width: 100%;
 }
 
+/* Step */ 
+
 .step{
     background-color: #F4F9FD;
     text-align: left;
@@ -319,6 +325,8 @@ svg {
 .step .row {
     margin-bottom: 50px;
 }
+
+/* Backend */
 
 .backend {
     text-align: center;
@@ -346,6 +354,7 @@ svg {
         width: 100%;
     }
 
+/* Iot */
 
 .iot {
     background-color: #8DCEB8;
@@ -398,6 +407,7 @@ svg {
         bottom: -75px;
     }
 
+/* Features */
 
 .features {
     padding: 50px 0px 50px;
@@ -469,6 +479,7 @@ svg {
         padding: 40px;
     }
 
+/* Usecases */
 
 .usecases {
     background-color: #F4F9FD;
@@ -521,6 +532,7 @@ svg {
         line-height: 26px;
     }
 
+/* Team */
 
     .team {
         margin-top: 60px;
@@ -552,7 +564,7 @@ svg {
         border: 4px solid #8DCEB8;
     }
 
-
+/* Calculator */
 
 .calculator {
     text-align: center;
@@ -625,7 +637,7 @@ svg {
         margin-top: 50px;
     }
 
-
+/* Contact */
 
 .contact {
     margin-top: 120px;
@@ -654,6 +666,8 @@ svg {
         text-decoration: none;
     }
 
+/* Mobile menu */
+
 #menu__toggle {
     opacity: 0;
 }
@@ -681,9 +695,6 @@ svg {
     #menu__toggle:checked ~ .mobile_language-select {
         left: 150px !important;
     }
-
-
-
 
 .hamburger-menu {
     background-color: #FFFFFF;
@@ -747,7 +758,6 @@ svg {
         line-height: normal;
     }
 
-
 .menu__footer .fa-instagram {
     color: #D42D7D;
 }
@@ -763,8 +773,6 @@ svg {
 .menu__footer .fa-youtube {
     color: #FF0000;
 }
-
-
 
 .menu__box {
     display: block;
