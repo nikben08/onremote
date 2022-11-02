@@ -314,7 +314,7 @@ svg {
         height: 340px;
         position: absolute;
         z-index: 10;
-        left: 20px;
+        left: 21px;
         top: 5px;
         border-radius: 3px;
     }
@@ -334,6 +334,12 @@ svg {
 .step .row {
     margin-bottom: 50px;
 }
+
+    .step .title {
+        text-align: center;
+        color: #070337;
+        padding-top: 25px;
+    }
 
 /* Backend */
 
@@ -558,10 +564,11 @@ svg {
     }
 
 
-.team .members {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+        .team .members {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #070337;
+        }
 
 .team .member {
     text-align: center;
