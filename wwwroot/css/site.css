@@ -564,6 +564,10 @@ svg {
         border: 4px solid #8DCEB8;
     }
 
+    .team .member p {
+        margin-top: 20px;
+    }
+
 /* Calculator */
 
 .calculator {
