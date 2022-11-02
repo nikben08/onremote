@@ -306,9 +306,18 @@ svg {
     padding-bottom: 30px;
 }
 
-.step img{
-    height: 350px;
-}
+    .step img{
+        height: 350px;
+    }
+
+    .step video {
+        height: 340px;
+        position: absolute;
+        z-index: 10;
+        left: 20px;
+        top: 5px;
+        border-radius: 3px;
+    }
 
     .step .card .card-body .card-subtitle {
         margin: 0 auto;
