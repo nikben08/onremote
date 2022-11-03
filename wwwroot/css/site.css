@@ -6,6 +6,11 @@
 }
 
 @font-face {
+    font-family: brother-1816-light;
+    src: url("/fonts/TipoType - Brother-1816-Light.otf");
+}
+
+@font-face {
     font-family: brother-1816-thin;
     src: url("/fonts/TipoType - Brother-1816-Thin.otf");
 }
@@ -73,7 +78,7 @@ body {
     font-size: 17px;
     color: #424242;
     margin-bottom: 45px;
-    font-family: brother-1816, sans-serif;
+    font-family: brother-1816-light, sans-serif;
 }
 
 .hero__thumb-2 {
